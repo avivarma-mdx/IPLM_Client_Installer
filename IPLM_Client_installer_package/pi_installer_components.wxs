@@ -1,0 +1,21 @@
+<Wix xmlns="http://wixtoolset.org/schemas/v4/wxs">
+	<Fragment>
+		 <!--Define components for your PyInstaller output--> 
+		<ComponentGroup Id="pi_installer_components" Directory="INSTALLFOLDER">
+			<Component Id="pi executable" Guid="9c40cc53-4d42-411e-9394-04401feb1eb7">
+				<File Id="pi executable" Source="$(var.pyinstaller.TargetDir)\pi.exe" KeyPath="yes">
+					 <!--Optional shortcut creation--> 
+					<!--<Shortcut Id="AppShortcut"
+							 Directory="ProgramMenuFolder"
+							 Name="pi"
+							 WorkingDirectory="INSTALLFOLDER"
+							 Advertise="yes" />-->
+				</File>
+			</Component>
+			<Component Id="pi-admin executable" Guid="c3ab148f-b090-49ae-8de5-9cf46211a823">
+				<File Id="pi-admin executable" Source="$(var.pyinstaller.TargetDir)\pi-admin.exe" KeyPath="yes"/>
+			</Component>
+			<Files Directory="OneDir" Include="$(var.pyinstaller.TargetDir)\_internal\**\*.*"/>
+		</ComponentGroup>
+	</Fragment>
+</Wix>

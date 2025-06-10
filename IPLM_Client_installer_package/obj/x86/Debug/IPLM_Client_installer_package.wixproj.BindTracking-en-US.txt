@@ -1,0 +1,5 @@
+BuiltContentOutput	C:\dev\IPLM_Client_Installer_solution\IPLM_Client_installer_package\obj\x86\Debug\en-US\cab1.cab
+BuiltPdbOutput	C:\dev\IPLM_Client_Installer_solution\IPLM_Client_installer_package\obj\x86\Debug\en-US\IPLM_Client_installer_package.wixpdb
+BuiltTargetOutput	C:\dev\IPLM_Client_Installer_solution\IPLM_Client_installer_package\obj\x86\Debug\en-US\IPLM_Client_installer_package.msi
+Input	C:\dev\PiWindows\pi.exe
+Intermediate	C:\dev\IPLM_Client_Installer_solution\IPLM_Client_installer_package\obj\x86\Debug\en-US\cab1.cab

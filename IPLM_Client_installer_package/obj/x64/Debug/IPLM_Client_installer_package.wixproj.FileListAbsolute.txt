@@ -1,0 +1,8 @@
+C:\dev\IPLM_Client_Installer_solution\IPLM_Client_installer_package\obj\x64\Debug\IPLM_Client_installer_package.wixproj.CoreCompileInputs.cache
+C:\dev\IPLM_Client_Installer_solution\IPLM_Client_installer_package\bin\x64\Debug\en-US\IPLM_Client_installer_package.msi
+C:\dev\IPLM_Client_Installer_solution\IPLM_Client_installer_package\bin\x64\Debug\en-US\cab1.cab
+C:\dev\IPLM_Client_Installer_solution\IPLM_Client_installer_package\bin\x64\Debug\en-US\IPLM_Client_installer_package.wixpdb
+C:\dev\IPLM_Client_Installer_solution\IPLM_Client_installer_package\obj\x64\Debug\en-US\cab1.cab
+C:\dev\IPLM_Client_Installer_solution\IPLM_Client_installer_package\obj\x64\Debug\en-US\IPLM_Client_installer_package.msi
+C:\dev\IPLM_Client_Installer_solution\IPLM_Client_installer_package\obj\x64\Debug\en-US\IPLM_Client_installer_package.wixpdb
+C:\dev\IPLM_Client_Installer_solution\IPLM_Client_installer_package\obj\x64\Debug\IPLM_Client_installer_package.wixproj.BindTracking-en-US.txt

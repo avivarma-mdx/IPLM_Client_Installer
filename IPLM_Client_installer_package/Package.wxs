@@ -1,0 +1,8 @@
+﻿<Wix xmlns="http://wixtoolset.org/schemas/v4/wxs">
+  <Package Id="Perforce.IPLM_Client" Name="IPLM_Client" Manufacturer="Perforce" Version="1.0.0.0">
+    <MajorUpgrade DowngradeErrorMessage="!(loc.DowngradeError)" />
+    <Feature Id="Main">
+      <ComponentGroupRef Id="pi_installer_components" />
+    </Feature>
+  </Package>
+</Wix>
