@@ -1,6 +1,6 @@
 BuiltContentOutput	C:\dev\IPLM_Client_Installer_solution\IPLM_Client_installer_package\obj\x64\Debug\en-US\cab1.cab
-BuiltPdbOutput	C:\dev\IPLM_Client_Installer_solution\IPLM_Client_installer_package\obj\x64\Debug\en-US\IPLM_Client_installer_package.wixpdb
-BuiltTargetOutput	C:\dev\IPLM_Client_Installer_solution\IPLM_Client_installer_package\obj\x64\Debug\en-US\IPLM_Client_installer_package.msi
+BuiltPdbOutput	C:\dev\IPLM_Client_Installer_solution\IPLM_Client_installer_package\obj\x64\Debug\en-US\P4 IPLM Client.wixpdb
+BuiltTargetOutput	C:\dev\IPLM_Client_Installer_solution\IPLM_Client_installer_package\obj\x64\Debug\en-US\P4 IPLM Client.msi
 Input	C:\dev\PiWindows\pi-admin.exe
 Input	C:\dev\PiWindows\pi.exe
 Input	C:\dev\PiWindows\_internal\base_library.zip
@@ -657,4 +657,12 @@ Input	C:\dev\PiWindows\_internal\_ssl.pyd
 Input	C:\dev\PiWindows\_internal\_uuid.pyd
 Input	C:\dev\PiWindows\_internal\_wmi.pyd
 Input	C:\dev\PiWindows\_internal\_zoneinfo.pyd
+Input	C:\Users\avi.varma\.wix\extensions\WixToolset.UI.wixext\6.0.1\wixext6\WixToolset.UI.wixext.dll
 Intermediate	C:\dev\IPLM_Client_Installer_solution\IPLM_Client_installer_package\obj\x64\Debug\en-US\cab1.cab
+Intermediate	C:\dev\IPLM_Client_Installer_solution\IPLM_Client_installer_package\obj\x64\Debug\en-US\WixToolset.UI.wixext_LErz6bN35sYIJpozSshCkO59JgM\wix-ir\bannrbmp.bmp
+Intermediate	C:\dev\IPLM_Client_Installer_solution\IPLM_Client_installer_package\obj\x64\Debug\en-US\WixToolset.UI.wixext_LErz6bN35sYIJpozSshCkO59JgM\wix-ir\dlgbmp.bmp
+Intermediate	C:\dev\IPLM_Client_Installer_solution\IPLM_Client_installer_package\obj\x64\Debug\en-US\WixToolset.UI.wixext_LErz6bN35sYIJpozSshCkO59JgM\wix-ir\exclamic.ico
+Intermediate	C:\dev\IPLM_Client_Installer_solution\IPLM_Client_installer_package\obj\x64\Debug\en-US\WixToolset.UI.wixext_LErz6bN35sYIJpozSshCkO59JgM\wix-ir\info.ico
+Intermediate	C:\dev\IPLM_Client_Installer_solution\IPLM_Client_installer_package\obj\x64\Debug\en-US\WixToolset.UI.wixext_LErz6bN35sYIJpozSshCkO59JgM\wix-ir\license.rtf
+Intermediate	C:\dev\IPLM_Client_Installer_solution\IPLM_Client_installer_package\obj\x64\Debug\en-US\WixToolset.UI.wixext_LErz6bN35sYIJpozSshCkO59JgM\wix-ir\new.ico
+Intermediate	C:\dev\IPLM_Client_Installer_solution\IPLM_Client_installer_package\obj\x64\Debug\en-US\WixToolset.UI.wixext_LErz6bN35sYIJpozSshCkO59JgM\wix-ir\up.ico

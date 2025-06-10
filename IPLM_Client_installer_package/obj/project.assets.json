@@ -18,9 +18,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\dev\\IPLM_Client_Installer_solution\\IPLM_Client_installer_package\\IPLM_Client_installer_package.wixproj",
-      "projectName": "IPLM_Client_installer_package",
-      "projectPath": "C:\\dev\\IPLM_Client_Installer_solution\\IPLM_Client_installer_package\\IPLM_Client_installer_package.wixproj",
+      "projectUniqueName": "C:\\dev\\IPLM_Client_Installer_solution\\IPLM_Client_installer_package\\Perforce IPLM.wixproj",
+      "projectName": "Perforce IPLM",
+      "projectPath": "C:\\dev\\IPLM_Client_Installer_solution\\IPLM_Client_installer_package\\Perforce IPLM.wixproj",
       "packagesPath": "C:\\Users\\avi.varma\\.nuget\\packages\\",
       "outputPath": "C:\\dev\\IPLM_Client_Installer_solution\\IPLM_Client_installer_package\\obj\\",
       "projectStyle": "PackageReference",
