@@ -1,9 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.14.36202.13 d17.14
+VisualStudioVersion = 17.14.36202.13
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{B7DD6F7E-DEF8-4E67-B5B7-07EF123DB6F0}") = "Perforce IPLM", "IPLM_Client_installer_package\Perforce IPLM.wixproj", "{04E47B46-E945-4F1F-8C37-144AC4A29FAF}"
+Project("{B7DD6F7E-DEF8-4E67-B5B7-07EF123DB6F0}") = "Perforce IPLM Client", "IPLM_Client_installer_package\Perforce IPLM Client.wixproj", "{04E47B46-E945-4F1F-8C37-144AC4A29FAF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
