@@ -5,6 +5,8 @@
     </StandardDirectory>
 	  <DirectoryRef Id="INSTALLFOLDER">
 		  <Directory Id="OneDir" Name="_internal"/>
+		  <Directory Id ="locales" Name="locales"/>
+		  <Directory Id ="config" Name="config"/>
 	  </DirectoryRef>
   </Fragment>
 </Wix>
