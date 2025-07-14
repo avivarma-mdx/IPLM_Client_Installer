@@ -8,7 +8,7 @@
     </Feature>
 	<SetProperty 
 		Id="WIXUI_EXITDIALOGOPTIONALTEXT" 
-		Value="Please edit and run C:\Program Files\IPLM Client\IPLM_Environment.ps1 to setup all required environment variables." 
+		Value="Please edit and run env:MDX_CONFIG_DIR\IPLM_Environment.conf to setup all required environment variables." 
 		After="FindRelatedProducts" 
 		Sequence="ui"/>
   </Package>

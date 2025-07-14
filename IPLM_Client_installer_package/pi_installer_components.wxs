@@ -3,8 +3,8 @@
 		 <!--Define components for your PyInstaller output--> 
 		<ComponentGroup Id="pi_installer_components" Directory="INSTALLFOLDER">
 			<Component Id="pi executable" Guid="9c40cc53-4d42-411e-9394-04401feb1eb7">
-				<File Id="iplm_Windows_env_script" Source="$(var.pyinstaller.TargetDir)\IPLM_Environment.ps1" KeyPath="no"/>
 				<File Id="pi executable" Source="$(var.pyinstaller.TargetDir)\pi.exe" KeyPath="yes"/>
+				<Environment Id="MDX_CONFIG_DIR" Name="MDX_CONFIG_DIR" Value="[INSTALLFOLDER]config" Permanent="yes" Part="last" Action="set" System="no" />
 				<Environment Id="PATH" Name="PATH" Value="[INSTALLFOLDER]" Permanent="yes" Part="last" Action="set" System="no" />
 			</Component>
 			<Component Id="pi-admin executable" Guid="c3ab148f-b090-49ae-8de5-9cf46211a823">
