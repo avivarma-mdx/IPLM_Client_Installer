@@ -1,9 +1,0 @@
-﻿<Project Sdk="WixToolset.Sdk/6.0.1">
-  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
-    <DefineConstants>pyinstaller.TargetDir=C:\dev\PiWindows\iplm-prod-test</DefineConstants>
-    <CompilerAdditionalOptions>-ext WixToolset.UI.wixext</CompilerAdditionalOptions>
-  </PropertyGroup>
-  <PropertyGroup>
-    <OutputName>$(MSBuildProjectName)</OutputName>
-  </PropertyGroup>
-</Project>
