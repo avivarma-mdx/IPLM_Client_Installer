@@ -1,0 +1,8 @@
+is_global = true
+build_property.RootNamespace = WixSharp
+build_property.ProjectDir = C:\dev\PiWindows\IPLM_Client_Installer\WindowsIplmClientInstaller\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.CsWinRTUseWindowsUIXamlProjections = false
+build_property.EffectiveAnalysisLevelStyle = 
+build_property.EnableCodeStyleSeverity = 

@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "JE6SKkWPRNA=",
+  "success": true,
+  "projectFilePath": "C:\\dev\\PiWindows\\IPLM_Client_Installer\\WindowsIplmClientInstaller\\WindowsIplmClientInstaller.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\avi.varma\\.nuget\\packages\\wixsharp_wix4\\2.6.2\\wixsharp_wix4.2.6.2.nupkg.sha512",
+    "C:\\Users\\avi.varma\\.nuget\\packages\\wixsharp_wix4.bin\\2.6.2\\wixsharp_wix4.bin.2.6.2.nupkg.sha512",
+    "C:\\Users\\avi.varma\\.nuget\\packages\\wixtoolset.dtf.windowsinstaller\\4.0.1\\wixtoolset.dtf.windowsinstaller.4.0.1.nupkg.sha512",
+    "C:\\Users\\avi.varma\\.nuget\\packages\\wixtoolset.mba.core\\4.0.1\\wixtoolset.mba.core.4.0.1.nupkg.sha512"
+  ],
+  "logs": []
+}

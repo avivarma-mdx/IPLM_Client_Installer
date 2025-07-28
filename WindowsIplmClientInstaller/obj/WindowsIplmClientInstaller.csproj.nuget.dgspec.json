@@ -1,0 +1,68 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\dev\\PiWindows\\IPLM_Client_Installer\\WindowsIplmClientInstaller\\WindowsIplmClientInstaller.csproj": {}
+  },
+  "projects": {
+    "C:\\dev\\PiWindows\\IPLM_Client_Installer\\WindowsIplmClientInstaller\\WindowsIplmClientInstaller.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\dev\\PiWindows\\IPLM_Client_Installer\\WindowsIplmClientInstaller\\WindowsIplmClientInstaller.csproj",
+        "projectName": "WindowsIplmClientInstaller",
+        "projectPath": "C:\\dev\\PiWindows\\IPLM_Client_Installer\\WindowsIplmClientInstaller\\WindowsIplmClientInstaller.csproj",
+        "packagesPath": "C:\\Users\\avi.varma\\.nuget\\packages\\",
+        "outputPath": "C:\\dev\\PiWindows\\IPLM_Client_Installer\\WindowsIplmClientInstaller\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\avi.varma\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net472"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net472": {
+            "targetAlias": "net472",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "net472": {
+          "targetAlias": "net472",
+          "dependencies": {
+            "WixSharp_wix4": {
+              "target": "Package",
+              "version": "[2.6.2, )"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.302\\RuntimeIdentifierGraph.json"
+        }
+      },
+      "runtimes": {
+        "win-x86": {
+          "#import": []
+        }
+      }
+    }
+  }
+}

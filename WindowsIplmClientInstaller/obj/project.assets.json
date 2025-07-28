@@ -1,0 +1,278 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETFramework,Version=v4.7.2": {
+      "WixSharp_wix4/2.6.2": {
+        "type": "package",
+        "dependencies": {
+          "WixSharp_wix4.bin": "2.6.2"
+        }
+      },
+      "WixSharp_wix4.bin/2.6.2": {
+        "type": "package",
+        "dependencies": {
+          "WixToolset.Dtf.WindowsInstaller": "4.0.1",
+          "WixToolset.Mba.Core": "4.0.1"
+        },
+        "compile": {
+          "lib/WixSharp.Msi.dll": {},
+          "lib/WixSharp.MsiEventHost.exe": {},
+          "lib/WixSharp.UI.WPF.dll": {},
+          "lib/WixSharp.UI.dll": {},
+          "lib/WixSharp.dll": {}
+        },
+        "runtime": {
+          "lib/WixSharp.Msi.dll": {},
+          "lib/WixSharp.MsiEventHost.exe": {},
+          "lib/WixSharp.UI.WPF.dll": {},
+          "lib/WixSharp.UI.dll": {},
+          "lib/WixSharp.dll": {}
+        }
+      },
+      "WixToolset.Dtf.WindowsInstaller/4.0.1": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "System.Configuration"
+        ],
+        "compile": {
+          "lib/net20/WixToolset.Dtf.WindowsInstaller.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net20/WixToolset.Dtf.WindowsInstaller.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "WixToolset.Mba.Core/4.0.1": {
+        "type": "package",
+        "compile": {
+          "lib/net20/WixToolset.Mba.Core.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net20/WixToolset.Mba.Core.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtimeTargets": {
+          "runtimes/win-arm64/native/mbanative.dll": {
+            "assetType": "native",
+            "rid": "win-arm64"
+          },
+          "runtimes/win-x64/native/mbanative.dll": {
+            "assetType": "native",
+            "rid": "win-x64"
+          },
+          "runtimes/win-x86/native/mbanative.dll": {
+            "assetType": "native",
+            "rid": "win-x86"
+          }
+        }
+      }
+    },
+    ".NETFramework,Version=v4.7.2/win-x86": {
+      "WixSharp_wix4/2.6.2": {
+        "type": "package",
+        "dependencies": {
+          "WixSharp_wix4.bin": "2.6.2"
+        }
+      },
+      "WixSharp_wix4.bin/2.6.2": {
+        "type": "package",
+        "dependencies": {
+          "WixToolset.Dtf.WindowsInstaller": "4.0.1",
+          "WixToolset.Mba.Core": "4.0.1"
+        },
+        "compile": {
+          "lib/WixSharp.Msi.dll": {},
+          "lib/WixSharp.MsiEventHost.exe": {},
+          "lib/WixSharp.UI.WPF.dll": {},
+          "lib/WixSharp.UI.dll": {},
+          "lib/WixSharp.dll": {}
+        },
+        "runtime": {
+          "lib/WixSharp.Msi.dll": {},
+          "lib/WixSharp.MsiEventHost.exe": {},
+          "lib/WixSharp.UI.WPF.dll": {},
+          "lib/WixSharp.UI.dll": {},
+          "lib/WixSharp.dll": {}
+        }
+      },
+      "WixToolset.Dtf.WindowsInstaller/4.0.1": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "System.Configuration"
+        ],
+        "compile": {
+          "lib/net20/WixToolset.Dtf.WindowsInstaller.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net20/WixToolset.Dtf.WindowsInstaller.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "WixToolset.Mba.Core/4.0.1": {
+        "type": "package",
+        "compile": {
+          "lib/net20/WixToolset.Mba.Core.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net20/WixToolset.Mba.Core.dll": {
+            "related": ".xml"
+          }
+        },
+        "native": {
+          "runtimes/win-x86/native/mbanative.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "WixSharp_wix4/2.6.2": {
+      "sha512": "W88VueOCkSI9OvYfCwLwvhY+0WGBA4xf8x2YhIZ3X3Y+Fm4z3Y84MxNvMdzC08hkBsUSKJ3QWBBmvcx+dSMqOw==",
+      "type": "package",
+      "path": "wixsharp_wix4/2.6.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "wixsharp_logo.png",
+        "wixsharp_wix4.2.6.2.nupkg.sha512",
+        "wixsharp_wix4.nuspec"
+      ]
+    },
+    "WixSharp_wix4.bin/2.6.2": {
+      "sha512": "au/3qmkob1+Y9FFS2UADrbtXBVhQARBon9TZxYbHGG5lyzYKZBHJEp9Z7kRx/lEitkn6v6vTHxh2Y+9jiMbNOQ==",
+      "type": "package",
+      "path": "wixsharp_wix4.bin/2.6.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/WixSharp.Msi.dll",
+        "lib/WixSharp.Msi.xml",
+        "lib/WixSharp.MsiEventHost.exe",
+        "lib/WixSharp.UI.WPF.dll",
+        "lib/WixSharp.UI.WPF.xml",
+        "lib/WixSharp.UI.dll",
+        "lib/WixSharp.UI.xml",
+        "lib/WixSharp.dll",
+        "lib/WixSharp.xml",
+        "lib/nbsbuilder.exe",
+        "wixsharp_logo.png",
+        "wixsharp_wix4.bin.2.6.2.nupkg.sha512",
+        "wixsharp_wix4.bin.nuspec"
+      ]
+    },
+    "WixToolset.Dtf.WindowsInstaller/4.0.1": {
+      "sha512": "+mEb3koK5HWzVBElwJnVYwtv5hZtZ1PJZsx8BIKIEad2I4tBtOeDEwFXwG9mpCSJhJroLPS5bCVCtX4uiudt8g==",
+      "type": "package",
+      "path": "wixtoolset.dtf.windowsinstaller/4.0.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net20/WixToolset.Dtf.WindowsInstaller.dll",
+        "lib/net20/WixToolset.Dtf.WindowsInstaller.xml",
+        "lib/netstandard2.0/WixToolset.Dtf.WindowsInstaller.dll",
+        "lib/netstandard2.0/WixToolset.Dtf.WindowsInstaller.xml",
+        "wix.png",
+        "wixtoolset.dtf.windowsinstaller.4.0.1.nupkg.sha512",
+        "wixtoolset.dtf.windowsinstaller.nuspec"
+      ]
+    },
+    "WixToolset.Mba.Core/4.0.1": {
+      "sha512": "bM8QaYQmjTOf837NMGlfyJUOaEUwom6YJXMZ/0dfjtBRsPtr9q0qGbEhF8tY+TwdNq/024PntCD2SiyxKAYeCg==",
+      "type": "package",
+      "path": "wixtoolset.mba.core/4.0.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net20/WixToolset.Mba.Core.dll",
+        "lib/net20/WixToolset.Mba.Core.xml",
+        "lib/netstandard2.0/WixToolset.Mba.Core.dll",
+        "lib/netstandard2.0/WixToolset.Mba.Core.xml",
+        "runtimes/win-arm64/native/mbanative.dll",
+        "runtimes/win-x64/native/mbanative.dll",
+        "runtimes/win-x86/native/mbanative.dll",
+        "wix.png",
+        "wixtoolset.mba.core.4.0.1.nupkg.sha512",
+        "wixtoolset.mba.core.nuspec"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETFramework,Version=v4.7.2": [
+      "WixSharp_wix4 >= 2.6.2"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\avi.varma\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\dev\\PiWindows\\IPLM_Client_Installer\\WindowsIplmClientInstaller\\WindowsIplmClientInstaller.csproj",
+      "projectName": "WindowsIplmClientInstaller",
+      "projectPath": "C:\\dev\\PiWindows\\IPLM_Client_Installer\\WindowsIplmClientInstaller\\WindowsIplmClientInstaller.csproj",
+      "packagesPath": "C:\\Users\\avi.varma\\.nuget\\packages\\",
+      "outputPath": "C:\\dev\\PiWindows\\IPLM_Client_Installer\\WindowsIplmClientInstaller\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\avi.varma\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net472"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net472": {
+          "targetAlias": "net472",
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
+      },
+      "SdkAnalysisLevel": "9.0.300"
+    },
+    "frameworks": {
+      "net472": {
+        "targetAlias": "net472",
+        "dependencies": {
+          "WixSharp_wix4": {
+            "target": "Package",
+            "version": "[2.6.2, )"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.302\\RuntimeIdentifierGraph.json"
+      }
+    },
+    "runtimes": {
+      "win-x86": {
+        "#import": []
+      }
+    }
+  }
+}
