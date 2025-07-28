@@ -18,6 +18,14 @@ namespace WindowsIplmClientInstaller
 
             project.GUID = new Guid("b93ce6c8-c702-4e94-ab5e-7d645efff2fa");
 
+            // Set environment variables
+            var PathEnvVar = new EnvironmentVariable("PATH", "[INSTALLDIR]");
+            PathEnvVar.Action = EnvVarAction.set;
+            PathEnvVar.Part = EnvVarPart.last;
+            PathEnvVar.Permanent = true;
+            project.Add(PathEnvVar);
+            project.Add(new EnvironmentVariable("MDX_CONFIG_DIR", "[INSTALLDIR]config"));
+
             //custom set of standard UI dialogs
             project.ManagedUI = new ManagedUI();
 
