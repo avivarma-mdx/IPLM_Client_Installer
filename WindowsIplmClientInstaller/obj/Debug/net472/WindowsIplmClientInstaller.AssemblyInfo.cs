@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("WindowsIplmClientInstaller")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5f7a8b71d1be8a696d6486fb6e8961fb307fc95a")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+553ea96b8c63e96f9e97d5b46efc0e9f2f712c8f")]
 [assembly: System.Reflection.AssemblyProductAttribute("WindowsIplmClientInstaller")]
 [assembly: System.Reflection.AssemblyTitleAttribute("WindowsIplmClientInstaller")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

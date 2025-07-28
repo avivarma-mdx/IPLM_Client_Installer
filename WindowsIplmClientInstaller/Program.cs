@@ -1,6 +1,7 @@
 ﻿using System;
 using WindowsIplmClientInstaller.Dialogs;
 using WixSharp;
+using WixSharp.CommonTasks;
 
 namespace WindowsIplmClientInstaller
 {
@@ -8,9 +9,12 @@ namespace WindowsIplmClientInstaller
     {
         static void Main()
         {
-            var project = new ManagedProject("MyProduct",
-                             new Dir(@"%ProgramFiles%\My Company\My Product",
-                                 new File("Program.cs")));
+            var localClientDir = @"C:\dev\PiWindows\iplm-prod-test\*.*";
+            var DEFAULT_INSTALL_DIR = @"%ProgramFiles%\perforce\IPLM Client\";
+
+            var project = new ManagedProject("IPLM Client",
+                             new Dir(DEFAULT_INSTALL_DIR,
+                                 new Files(localClientDir)));
 
             project.GUID = new Guid("b93ce6c8-c702-4e94-ab5e-7d645efff2fa");
 
