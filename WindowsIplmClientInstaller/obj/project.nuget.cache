@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "JE6SKkWPRNA=",
+  "dgSpecHash": "qnFbhT+YWn0=",
   "success": true,
-  "projectFilePath": "C:\\dev\\PiWindows\\IPLM_Client_Installer\\WindowsIplmClientInstaller\\WindowsIplmClientInstaller.csproj",
+  "projectFilePath": "C:\\dev\\IPLM_Client_Installer_To_Copy\\WindowsIplmClientInstaller\\WindowsIplmClientInstaller.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\avi.varma\\.nuget\\packages\\wixsharp_wix4\\2.6.2\\wixsharp_wix4.2.6.2.nupkg.sha512",
     "C:\\Users\\avi.varma\\.nuget\\packages\\wixsharp_wix4.bin\\2.6.2\\wixsharp_wix4.bin.2.6.2.nupkg.sha512",
